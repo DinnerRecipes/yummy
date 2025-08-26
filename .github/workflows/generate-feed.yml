@@ -2,7 +2,7 @@ name: Generate Pinterest RSS Feed
 
 on:
   schedule:
-    - cron: '0 1 * * *' # Menjalankan sekali setiap hari jam 1 pagi (UTC)
+    - cron: '0 2 * * *' # Menjalankan sekali setiap hari jam 1 pagi (UTC)
   workflow_dispatch: # Tombol untuk menjalankan manual
 
 jobs:
